@@ -7,10 +7,13 @@ import connectDb from "./config/connectDb.js";
 import router1 from "./routes/userRoute.js";
 import router from "./routes/transectionRoutes.js";
 import path from 'path';
+import {fileURLToPath} from 'url';
 
 
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+//const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 //config dotenv file
 dotenv.config();
