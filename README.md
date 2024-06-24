@@ -25,7 +25,7 @@ The Expense Management App is a full-stack web application developed using the M
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/expense-management-app.git`
+1. Clone the repository: `git clone https://github.com/PRIYANSHUMISHRA9579/Expense-Management-App.git`
 2. Navigate to the project directory: `cd expense-management-app`
 3. Install dependencies for frontend and backend:
    - Frontend: `cd client && npm install`
@@ -41,12 +41,4 @@ The Expense Management App is a full-stack web application developed using the M
 - Register/Login as a user to access the expense tracking features.
 - Add, edit, and delete expenses.
 - View expense trends and generate reports in the admin panel.
-
-## Contributing
-
-Contributions are welcome! Please follow the [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
